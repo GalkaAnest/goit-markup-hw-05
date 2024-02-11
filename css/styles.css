@@ -687,7 +687,7 @@ img {
 }
 
 .modal-input:focus {
-  border-color: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
 }
 .modal-input:focus + .icon-label {
   fill: #4d5ae5;
@@ -737,6 +737,10 @@ img {
   background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   resize: none;
+}
+.textarea:focus,
+.textarea:hover {
+  border-color: #4d5ae5;
 }
 
 textarea::placeholder {
